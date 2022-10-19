@@ -24,6 +24,9 @@ export default class Level {
    * @param y {number} - y koordináta
    * @returns {coord} - egy [x, y] koordinátával tér vissza
    */
+  translate(x: number, y: number): coord {
+      return [1, 2]
+  };
 
   remove (): void {
     this.pieces.forEach(piece => {
